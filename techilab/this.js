@@ -1,18 +1,18 @@
 
 
-//This keyword in JavaScript is used to refer the object it belongs to.
+// //This keyword in JavaScript is used to refer the object it belongs to.
 
-var object = this;
-console.log(object);
+// var object = this;
+// console.log(object);
 
-let person = {
-    firstName: "Usama",
-    lastName: "Anwar",
-    fullName: function () {
-        return this.firstName + " " + this.lastName;
-    }
+// let person = {
+//     firstName: "Usama",
+//     lastName: "Anwar",
+//     fullName: function () {
+//         return this.firstName + " " + this.lastName;
+//     }
 
-}
-document.write("<h1>" + person.fullName())
+// }
+// document.write("<h1>" + person.fullName())
 
-    //In an event this refers to the element that received the event.
+//     //In an event this refers to the element that received the event.
